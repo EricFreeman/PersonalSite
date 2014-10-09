@@ -1,1 +1,33 @@
+<head>
+	<script src="scripts/angular.min.js"></script>
+	<script src="scripts/jquery-1.11.1.min.js"></script>
+	<script src="scripts/angular-route.min.js"></script>
+	<script src="scripts/personalSite.js"></script>
+	<title>Eric Freeman</title>
+</head>
+<body>
+	<div ng-app="personalSite">
+		<header>
+			<ol>
+				<li><a href="#/home">Home</a></li>
+				<li><a href="#/projects">Projects</a></li>
+				<li><a href="#/about">About</a></li>
+			</ol>
+		</header>
+		<div class="mainContent center">
+				<ng-view>Loading...</ng-view>
 
+				<script type="text/ng-template" id="home.html">
+					<p>Homepage</p>
+				</script>
+
+				<script type="text/ng-template" id="projects.html">
+					<p>Projects</p>
+				</script>
+
+				<script type="text/ng-template" id="about.html">
+					<p>About</p>
+				</script>
+		</div>
+	</div>
+</body>
