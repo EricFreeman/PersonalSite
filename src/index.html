@@ -3,11 +3,14 @@
 	<script src="scripts/jquery-1.11.1.min.js"></script>
 	<script src="scripts/angular-route.min.js"></script>
 	<script src="scripts/personalSite.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<title>Eric Freeman</title>
 </head>
 <body>
 	<div ng-app="personalSite">
 		<header>
+			<span>Eric Freeman</span>
 			<ol>
 				<li><a href="#/home">Home</a></li>
 				<li><a href="#/projects">Projects</a></li>
@@ -22,7 +25,11 @@
 				</script>
 
 				<script type="text/ng-template" id="projects.html">
-					<p>Projects</p>
+					<div class="project">
+						<p>Giant Shaft Enterprises</p>
+						<p>An incremental game created as a way to learn <strong>AngularJS</strong>.
+						<p><a href="http://giantshaft.com/game">Play!</a></p>
+					</div>
 				</script>
 
 				<script type="text/ng-template" id="about.html">

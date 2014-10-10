@@ -1,0 +1,8 @@
+header ol {
+	float: right;
+}
+
+header ol li {
+	display: inline;
+	list-style-type: none;
+}

@@ -4,16 +4,13 @@ personalSite.config(['$routeProvider',
 	function($routeProvider) {
 		$routeProvider.
 			when('/home', {
-				templateUrl: 'home.html',
-				// controller: 'BusinessController'
+				templateUrl: 'home.html'
 			}).
 			when('/projects', {
-				templateUrl: 'projects.html',
-				// controller: 'StatsController'
+				templateUrl: 'projects.html'
 			}).
 			when('/about', {
-				templateUrl: 'about.html',
-				// controller: 'SpaceController'
+				templateUrl: 'about.html'
 			}).
 			otherwise({
 				redirectTo: '/home'
