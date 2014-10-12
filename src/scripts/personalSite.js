@@ -7,7 +7,8 @@ personalSite.config(['$routeProvider',
 				templateUrl: 'home.html'
 			}).
 			when('/projects', {
-				templateUrl: 'projects.html'
+				templateUrl: 'projects.html',
+				controller: 'Projects'
 			}).
 			when('/about', {
 				templateUrl: 'about.html'
