@@ -8,7 +8,7 @@
 	<title>Eric Freeman</title>
 </head>
 <body>
-	<div ng-app="personalSite">
+	<div id="content" ng-app="personalSite">
 		<header>
 			<span>Eric Freeman</span>
 			<ol>
@@ -17,24 +17,36 @@
 				<li><a href="#/about">About</a></li>
 			</ol>
 		</header>
-		<div class="mainContent center">
-				<ng-view>Loading...</ng-view>
+		<div>
+			<ng-view>Loading...</ng-view>
 
-				<script type="text/ng-template" id="home.html">
-					<p>Homepage</p>
-				</script>
+			<script type="text/ng-template" id="home.html">
+				<p>Homepage</p>
+			</script>
 
-				<script type="text/ng-template" id="projects.html">
-					<div class="project">
-						<p>Giant Shaft Enterprises</p>
-						<p>An incremental game created as a way to learn <strong>AngularJS</strong>.
-						<p><a href="http://giantshaft.com/game">Play!</a></p>
-					</div>
-				</script>
+			<script type="text/ng-template" id="projects.html">
+				<div class="project">
+					<p class="title">Giant Shaft Enterprises</p>
+					<p class="date">May 2014 - August 2014</p>
+					<p class="description">
+						Developed an incremental game using the <strong>AngularJS JavaScript</strong> framework.  The game has been played in 95 different countries over 28,000 times using only word-of-mouth advertising.
+					</p>
+					<p class="link"><a href="http://giantshaft.com/game">Play</a></p>
+				</div>
 
-				<script type="text/ng-template" id="about.html">
-					<p>About</p>
-				</script>
+				<div class="project">
+					<p class="title">Crappy Bird</p>
+					<p class="date">March 2014</p>
+					<p class="description">
+						Created a Flappy Bird clone using the <strong>Unity3D</strong> game engine and <strong>C#</strong> for scripting.  Currently at 4.5/5 stars in the Windows Phone Store.
+					</p>
+					<p class="link"><a href="http://www.windowsphone.com/en-us/store/app/crappy-bird/51645d18-ed9a-4bc1-9b83-3392daeeb42f">Play</a></p>
+				</div>
+			</script>
+
+			<script type="text/ng-template" id="about.html">
+				<p>About</p>
+			</script>
 		</div>
 	</div>
 </body>
