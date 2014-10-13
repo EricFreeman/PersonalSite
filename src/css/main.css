@@ -38,6 +38,11 @@ header ol li {
 	font-size: 12px;
 }
 
+.pageDescription {
+	font-size: 12px;
+	margin-bottom: 16px;
+}
+
 .project {
 	background-color: #EEE;
 	padding: 16px;
