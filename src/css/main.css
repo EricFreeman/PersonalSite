@@ -40,6 +40,9 @@ header ol li {
 
 .pageDescription {
 	font-size: 12px;
+}
+
+.pageDescription p {
 	margin-bottom: 16px;
 }
 
@@ -60,6 +63,10 @@ header ol li {
 
 .project .title a {
 	text-decoration: none;
+}
+
+.project .title .github {
+	float: right;
 }
 
 .project .date {
