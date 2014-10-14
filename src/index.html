@@ -49,7 +49,7 @@
 					<p class="date">{{ project.date }}</p>
 					<p class="description" ng-bind-html="trust(project.description)" />
 					<div class="screenshots">
-						<a ng-repeat="image in project.screenshots" href="images/{{ image }}">
+						<a ng-repeat="image in project.screenshots" href="images/{{ image }}" target="_blank">
 							<img ng-src="images/{{ image }}" />
 						</a>
 					</div>

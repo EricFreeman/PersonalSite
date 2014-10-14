@@ -52,7 +52,8 @@ function Projects($scope, $sce) {
 			name : 'Landscaper',
 			date : 'March 2014 - April 2014',
 			description : 'Level editor for my project <strong>Lawnmower Simulator 2014</strong>.  Allowed for placement of different tiles, walls, and items and saving the scene to XML.  Created using <strong>C#</strong> and <strong>WPF</strong>.',
-			github : 'https://github.com/EricFreeman/Landscaper'
+			github : 'https://github.com/EricFreeman/Landscaper',
+			screenshots : [ 'landscaper 1.png' ]
 		},
 		{
 			name : 'Crappy Bird',
