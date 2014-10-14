@@ -90,14 +90,14 @@ function Projects($scope, $sce) {
 			name : 'Mr. Stick Figure',
 			link : 'http://my.dmci.net/~jsfreeman/clownhunter/Stick.zip',
 			date : 'Circa August 2004 (Exact Date Unknown)',
-			description : 'Two player fighting game in an office building.  I consider this my second video game I ever programmed.',
+			description : 'Two player fighting game in an office building.  I consider this my second video game I ever programmed.  Was created using <strong>BlitzPlus</strong>.',
 			screenshots : [ 'mr stick figure 1.jpg' ]
 		},
 		{
 			name : 'Clown Hunter',
 			link : 'http://my.dmci.net/~jsfreeman/clownhunter/ClownHunter.rar',
 			date : 'Circa July 2004 (Exact Date Unknown)',
-			description : 'Shoot clowns as they move back and forth across the screen.  This is the first game I programmed by myself.',
+			description : 'Shoot clowns as they move back and forth across the screen.  This is the first game I programmed by myself.  Was created using <strong>BlitzPlus</strong>.',
 			screenshots :  [ 'clownhunter 1.jpg', 'clownhunter 2.jpg' ]
 		}
 	];

@@ -56,16 +56,16 @@ header ol li {
 	margin-bottom: 16px;
 }
 
-.project .title {
+.title {
 	font-weight: bold;
 	font-size: 20px;
 }
 
-.project .title a {
+.title a {
 	text-decoration: none;
 }
 
-.project .title .github {
+.title .github {
 	float: right;
 }
 
@@ -73,11 +73,11 @@ header ol li {
 	font-size: 10px;
 }
 
-.project .description {
+.description {
 	margin-top: 16px;
 }
 
-.project .description strong {
+.description strong {
 	font-weight: bold;
 }
 
@@ -88,4 +88,8 @@ header ol li {
 .project .screenshots img {
 	max-width: 32%;
 	max-height: 128px;
+}
+
+.aboutSection:not(:last-child) {
+	margin-bottom: 16px;
 }
