@@ -21,7 +21,8 @@ function Projects($scope, $sce) {
 			name : 'Autoclicker',
 			date : 'June 2014',
 			description : 'Custom autoclicker created using <strong>C#</strong> and <strong>WPF</strong>.',
-			github : 'https://github.com/EricFreeman/Autoclicker'
+			github : 'https://github.com/EricFreeman/Autoclicker',
+			screenshots : [ 'autoclicker 1.png' ]
 		},
 		{
 			name : 'Peggle Clone',
