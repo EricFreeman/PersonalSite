@@ -14,7 +14,8 @@ function Projects($scope, $sce) {
 			name : 'Giant Shaft Enterprises',
 			link : 'http://giantshaft.com/game',
 			date : 'May 2014 - August 2014',
-			description : 'Developed an incremental game using the <strong>AngularJS JavaScript</strong> framework.  The game has been played in 95 different countries over 34,000 times using only word-of-mouth advertising.'
+			description : 'Developed an incremental game using the <strong>AngularJS JavaScript</strong> framework.  Start a business, earn money, and take over the galaxy!  The game has been played in 95 different countries over 34,000 times using only word-of-mouth advertising.',
+			screenshots : [ 'gse 1.png', 'gse 2.png', 'gse 3.png', 'gse 4.png' ]
 		},
 		{
 			name : 'Autoclicker',
