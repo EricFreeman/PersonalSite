@@ -48,12 +48,17 @@
 					</p>
 					<p class="date">{{ project.date }}</p>
 					<p class="description" ng-bind-html="trust(project.description)" />
+					<div class="screenshots">
+						<a ng-repeat="image in project.screenshots" href="images/{{ image }}">
+							<img ng-src="images/{{ image }}" />
+						</a>
+					</div>
 				</div>
 			</script>
 
 			<script type="text/ng-template" id="about.html">
 				<p>
-					I love to code.  I started programming in the fourth grade with Interplay&apos;s Learn To Program Basic and never looked back.  During the summer after seventh grade, I began attending Camp CAEN at the University of Michigan where I took classes on C#, C++, Java, HTML/CSS, Javascript, PHP, Web Design, and even 3D Modeling.  When I was in high school, I went back to Camp CAEN working as a counselor-in-training, taking on duties of assisting the teaching process and helping students with their questions.  After graduating high school, I moved to Utah to attend Neumont University because of their high rates of graduate job placement, only 2.5 year graduation schedule, and enterprise projects.  I graduated college when I was 20 and immidiately entered the industry.  I am currently happily employed working at Towers Watson for their Exchange Solutions branch.
+					I love to code.  I started programming in the fourth grade with Interplay&apos;s Learn To Program Basic and never looked back.  During the summer after seventh grade, I began attending Camp CAEN at the University of Michigan where I took classes on C#, C++, Java, HTML/CSS, Javascript, PHP, Web Design, and even 3D Modeling.  When I was in high school, I went back to Camp CAEN working as a counselor-in-training, taking on duties of assisting the teaching process and helping students with their questions.  After graduating high school, I moved to Utah to attend Neumont University because of their high rates of graduate job placement, only 2.5 year graduation schedule, and enterprise projects.  I graduated college when I was 20 and immediately entered the industry.  I am currently happily employed working at Towers Watson for their Exchange Solutions branch.
 				</p>
 			</script>
 		</div>

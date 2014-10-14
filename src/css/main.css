@@ -80,3 +80,12 @@ header ol li {
 .project .description strong {
 	font-weight: bold;
 }
+
+.project .screenshots {
+	padding-top: 16px;
+}
+
+.project .screenshots img {
+	max-width: 32%;
+	max-height: 128px;
+}

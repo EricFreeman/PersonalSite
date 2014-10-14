@@ -56,7 +56,8 @@ function Projects($scope, $sce) {
 			name : 'Crappy Bird',
 			link : 'http://www.windowsphone.com/en-us/store/app/crappy-bird/51645d18-ed9a-4bc1-9b83-3392daeeb42f',
 			date : 'March 2014',
-			description : 'Flappy Bird clone using the <strong>Unity3D</strong> game engine and <strong>C#</strong> for scripting.  Currently at 4.5/5 stars in the Windows Phone Store.'
+			description : 'Flappy Bird clone using the <strong>Unity3D</strong> game engine and <strong>C#</strong> for scripting.  Currently at 4.5/5 stars in the Windows Phone Store.',
+			github : 'https://github.com/EricFreeman/CrappyBird'
 		},
 		{
 			name : 'UDK Scaleform Arcade',
@@ -67,7 +68,8 @@ function Projects($scope, $sce) {
 		{
 			name : 'Ball Descent',
 			date : 'April 2011 - June 2011',
-			description : 'Top down platforming/puzzle game developed with the <strong>Unreal Development Kit</strong>. The puzzles are inventive and fairly challenging and offer some fun variation. We made use of level streaming, custom particle effects, custom 3D models and <strong>Scaleform</strong>.'
+			description : 'Top down platforming/puzzle game developed with the <strong>Unreal Development Kit</strong>. The puzzles are inventive and fairly challenging and offer some fun variation. We made use of level streaming, custom particle effects, custom 3D models and <strong>Scaleform</strong>.',
+			screenshots : [ 'ball descent 1.png', 'ball descent 2.png', 'ball descent 3.png' ]
 		},
 		{
 			name : 'Infinecraft',
@@ -80,6 +82,20 @@ function Projects($scope, $sce) {
 			date : 'August 2006',
 			description : 'A 3D adventure game I made when I was 15.  Explore your house as an "emo" kid and perform different tasks commonly associated with someone from their clique like listening to emo music or writing emo poetry.  The game was programmed using <strong>Blitz3D</strong>',
 			github : 'https://github.com/EricFreeman/Emo-Game-2'
+		},
+		{
+			name : 'Mr. Stick Figure',
+			link : 'http://my.dmci.net/~jsfreeman/clownhunter/Stick.zip',
+			date : 'Circa August 2004 (Exact Date Unknown)',
+			description : 'Two player fighting game in an office building.  I consider this my second video game I ever programmed.',
+			screenshots : [ 'mr stick figure 1.jpg' ]
+		},
+		{
+			name : 'Clown Hunter',
+			link : 'http://my.dmci.net/~jsfreeman/clownhunter/ClownHunter.rar',
+			date : 'Circa July 2004 (Exact Date Unknown)',
+			description : 'Shoot clowns as they move back and forth across the screen.  This is the first game I programmed by myself.',
+			screenshots :  [ 'clownhunter 1.jpg', 'clownhunter 2.jpg' ]
 		}
 	];
 }
