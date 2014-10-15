@@ -24,8 +24,12 @@ a:hover {
 
 header {
 	font-size: 32px;
-	margin-bottom: 32px;
+	margin-bottom: 64px;
 	padding-bottom: 16px;
+}
+
+header span {
+	float: left;
 }
 
 header ol {
