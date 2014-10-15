@@ -29,19 +29,22 @@ function Projects($scope, $sce) {
 			name : 'Peggle Clone',
 			date : 'June 2014',
 			description : 'Developed for Windows Phone using <strong>Unity3D</strong> and <strong>C#</strong>.',
-			github : 'https://github.com/EricFreeman/Peggle'
+			github : 'https://github.com/EricFreeman/Peggle',
+			screenshots : [ 'peggle 1.png', 'peggle 2.png' ]
 		},
 		{
 			name : "Top Down SHMUP (Shoot 'em Up)",
 			date : 'April 2014 - June 2014',
 			description : "Top down shmup in the style of 1945 or Raptor: Call of the Shadow.  Was used to learn <strong>Unity3D</strong>'s 2D Framework.  Used <strong>C#</strong> for scripting.",
-			github : 'https://github.com/EricFreeman/Unity2D-Test'
+			github : 'https://github.com/EricFreeman/Unity2D-Test',
+			screenshots : [ 'shmup 1.png', 'shmup 2.png', 'shmup 3.png' ]
 		},
 		{
 			name : 'Shmup Level Editor',
 			date : 'June 2014',
 			description : 'Simple wave editor for my <strong>Top Down SHMUP</strong> project.  Created using <strong>C#</strong> and <strong>WPF</strong>.',
-			github : 'https://github.com/EricFreeman/ShmupLevelEditor'
+			github : 'https://github.com/EricFreeman/ShmupLevelEditor',
+			screenshots : [ 'shmup editor 1.png' ]
 		},
 		{
 			name : 'Lawnmower Simulator 2014',
