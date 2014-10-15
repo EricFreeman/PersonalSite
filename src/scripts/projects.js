@@ -8,7 +8,8 @@ function Projects($scope, $sce) {
 			name : 'Doodle Jump Clone',
 			date : 'September 2014 - October 2014',
 			description : 'Developed for Windows Phone using <strong>Unity3D</strong> and <strong>C#</strong> for scripting.',
-			github : 'https://github.com/EricFreeman/DoodleJump'
+			github : 'https://github.com/EricFreeman/DoodleJump',
+			screenshots : [ 'doodle jump 1.png', 'doodle jump 2.png' ]
 		},
 		{
 			name : 'Giant Shaft Enterprises',
@@ -46,7 +47,8 @@ function Projects($scope, $sce) {
 			name : 'Lawnmower Simulator 2014',
 			date : 'March 2014 - June 2014',
 			description : 'Beginnings of a top down inspired by Hotline Miami.  Engine could load custom levels created in my <strong>Landscaper</strong> project.  Demo was created using <strong>Unity3D</strong> and <strong>C#</strong> for scripting.',
-			github : 'https://github.com/EricFreeman/Lawnmower-Simulator-2014'
+			github : 'https://github.com/EricFreeman/Lawnmower-Simulator-2014',
+			screenshots : [ 'lawn mower 1.png' ]
 		},
 		{
 			name : 'Landscaper',
