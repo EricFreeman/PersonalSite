@@ -15,15 +15,41 @@
 			<ol>
 				<li><a href="#/home">Home</a></li>
 				<li><a href="#/projects">Projects</a></li>
-				<li><a href="#/about">About</a></li>
-				<li><a href="resume.docx">Resume</a></li>
+				<li><a href="ericfreemanresume.docx">Resume</a></li>
 			</ol>
 		</header>
 		<div>
 			<ng-view>Loading...</ng-view>
 
 			<script type="text/ng-template" id="home.html">
-				<p>Homepage</p>
+				<div class="aboutSection">
+					<p class="title">I love to code.</p>
+					<p class="pageDescription">
+						I started programming in the fourth grade with Interplay&apos;s Learn To Program Basic and never looked back.  During the summer after seventh grade, I began attending Camp CAEN at the University of Michigan where I took classes on C#, C++, Java, HTML/CSS, Javascript, PHP, Web Design, and even 3D Modeling.  When I was in high school, I went back to Camp CAEN working as a counselor-in-training, taking on duties of assisting the teaching process and helping students with their questions.  After graduating high school, I moved to Utah to attend Neumont University because of their high rates of graduate job placement, only 2.5 year graduation schedule, and enterprise projects.  I graduated college when I was 20 and immediately entered the industry.  I am currently happily employed working at Towers Watson for their Exchange Solutions branch.
+					</p>
+				</div>
+				<div class="aboutSection">
+					<p class="title">I love to learn.</p>
+					<p class="pageDescription">
+						Even though I graduated college some years ago, I strive to stay on a neverending path of learning.  Beyond keeping current with the latest technologies, I also actively attend local meetups including HackNight SLC, Utah Indie Games Night, and the annual Utah Code Camp.  I also enjoy Scott Hanselman&apos;s blog and reading Jeremy D. Miller&apos;s <a href="https://twitter.com/jeremydmiller/status/517754862659182592">passive</a> <a href="https://twitter.com/jeremydmiller/status/517405748968435713">agressive</a> <a href="https://twitter.com/jeremydmiller/status/517405935942131712">tweets</a>.
+					</p>
+				</div>
+				<div class="aboutSection">
+					<p class="title">Let&apos;s talk.</p>
+					<p class="pageDescription">
+						If you are a recruiter looking to fill a position and just stumbled upon this page, the best way to get in touch with me is through the use of smoke signals or carrier pigeons.  Otherwise, feel free to email me: <a href="mailto:eric@giantshaft.com">eric@giantshaft.com</a>.
+					</p>
+				</div>
+				<div class="aboutSection">
+					<p class="title">You should check these things out.</p>
+					<ul class="pageDescription">
+						<li><a href="http://www.hacknightslc.com">HackNight SLC</a></li>
+						<li><a href="https://groups.google.com/forum/#!forum/utah-indie-games">Utah Indie Games</a></li>
+						<li><a href="http://hanselman.com/blog">Scott Hanselman&apos;s blog</a></li>
+						<li><a href="https://weblogs.asp.net/scottgu">Scott Gu&apos;s blog</a></li>
+						<li><a href="http://jeremydmiller.com/">Jeremy D Miller&apos;s blog</a></li>
+					</ul>
+				</div>
 			</script>
 
 			<script type="text/ng-template" id="projects.html">
@@ -53,37 +79,6 @@
 							<img ng-src="images/{{ image }}" />
 						</a>
 					</div>
-				</div>
-			</script>
-
-			<script type="text/ng-template" id="about.html">
-				<div class="aboutSection">
-					<p class="title">I love to code.</p>
-					<p class="pageDescription">
-						I started programming in the fourth grade with Interplay&apos;s Learn To Program Basic and never looked back.  During the summer after seventh grade, I began attending Camp CAEN at the University of Michigan where I took classes on C#, C++, Java, HTML/CSS, Javascript, PHP, Web Design, and even 3D Modeling.  When I was in high school, I went back to Camp CAEN working as a counselor-in-training, taking on duties of assisting the teaching process and helping students with their questions.  After graduating high school, I moved to Utah to attend Neumont University because of their high rates of graduate job placement, only 2.5 year graduation schedule, and enterprise projects.  I graduated college when I was 20 and immediately entered the industry.  I am currently happily employed working at Towers Watson for their Exchange Solutions branch.
-					</p>
-				</div>
-				<div class="aboutSection">
-					<p class="title">I love to learn.</p>
-					<p class="pageDescription">
-						Even though I graduated college some years ago, I strive to stay on a neverending path of learning.  Beyond keeping current with the latest technologies, I also actively attend local meetups including HackNight SLC, Utah Indie Games Night, and the annual Utah Code Camp.  I also enjoy Scott Hanselman&apos;s blog and reading Jeremy D. Miller&apos;s <a href="https://twitter.com/jeremydmiller/status/517754862659182592">passive</a> <a href="https://twitter.com/jeremydmiller/status/517405748968435713">agressive</a> <a href="https://twitter.com/jeremydmiller/status/517405935942131712">tweets</a>.
-					</p>
-				</div>
-				<div class="aboutSection">
-					<p class="title">Let&apos;s talk.</p>
-					<p class="pageDescription">
-						If you are a recruiter looking to fill a position and just stumbled upon this page, the best way to get in touch with me is through the use of smoke signals or carrier pigeons.  Otherwise, feel free to email me: <a href="mailto:eric@giantshaft.com">eric@giantshaft.com</a>.
-					</p>
-				</div>
-				<div class="aboutSection">
-					<p class="title">You should check these things out.</p>
-					<ul class="pageDescription">
-						<li><a href="http://www.hacknightslc.com">HackNight SLC</a></li>
-						<li><a href="https://groups.google.com/forum/#!forum/utah-indie-games">Utah Indie Games</a></li>
-						<li><a href="http://hanselman.com/blog">Scott Hanselman&apos;s blog</a></li>
-						<li><a href="https://weblogs.asp.net/scottgu">Scott Gu&apos;s blog</a></li>
-						<li><a href="http://jeremydmiller.com/">Jeremy D Miller&apos;s blog</a></li>
-					</ul>
 				</div>
 			</script>
 		</div>

@@ -10,9 +10,6 @@ personalSite.config(['$routeProvider',
 				templateUrl: 'projects.html',
 				controller: 'Projects'
 			}).
-			when('/about', {
-				templateUrl: 'about.html'
-			}).
 			otherwise({
 				redirectTo: '/home'
 			});
