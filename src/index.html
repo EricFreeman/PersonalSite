@@ -25,49 +25,39 @@
 				<div class="aboutSection">
 					<p class="title">I love to code.</p>
 					<p class="pageDescription">
-						I started programming in the fourth grade with Interplay&apos;s Learn To Program Basic and never looked back.  During the summer after seventh grade, I began attending Camp CAEN at the University of Michigan where I took classes on C#, C++, Java, HTML/CSS, Javascript, PHP, Web Design, and even 3D Modeling.  When I was in high school, I went back to Camp CAEN working as a counselor-in-training, taking on duties of assisting the teaching process and helping students with their questions.  After graduating high school, I moved to Utah to attend Neumont University because of their high graduate job placement and starting salary, only 2.5 year graduation schedule, and enterprise projects.  I graduated college when I was 20 and immediately entered the industry.  I am currently happily employed at Towers Watson working for their Exchange Solutions branch.
+						I started programming in the fourth grade with Interplay&apos;s Learn To Program Basic, and have never looked back.  During the summer after seventh grade, I began attending Camp CAEN at the University of Michigan, an extremely challenging residential computer camp sponsored by U of M&apos;s enginerring department, where I took classes on C#, C++, Java, HTML/CSS, Javascript, PHP, Web Design, and even 3D Modeling.  When I was in high school, I went back to Camp CAEN working as a counselor-in-training, taking on duties of assisting in the teaching process and helping students with their questions.  After graduating high school, I moved to Utah to attend Neumont University, attracted by their extremely intense and fast-paced learning environment.  I graduated college with a Bachelor of Science in Computer Science degree, at age 20.  I immediately entered the industry, and am currently happily employed as a software engineer at Towers Watson working for their Exchange Solutions branch.
 					</p>
 				</div>
 				<div class="aboutSection">
 					<p class="title">I love to learn.</p>
 					<p class="pageDescription">
-						Even though I graduated college some years ago, I strive to stay on a neverending path of learning.  Beyond keeping current with the latest technologies, I also actively attend local meetups including <a href="http://www.hacknightslc.com">HackNight SLC</a>, <a href="https://groups.google.com/forum/#!forum/utah-indie-games">Utah Indie Games Night</a>, and the annual Utah Code Camp.  I also enjoy <a href="http://hanselman.com/blog">Scott Hanselman&apos;s blog</a> and reading Jeremy D. Miller&apos;s <a href="https://twitter.com/jeremydmiller/status/517754862659182592">passive</a> <a href="https://twitter.com/jeremydmiller/status/517405748968435713">agressive</a> <a href="https://twitter.com/jeremydmiller/status/517405935942131712">tweets</a>.
+						Since graduating college, I strive to stay on a neverending path of learning.  Beyond keeping current with the latest technologies and reading tech blogs, I also actively attend local meetups including <a href="http://www.hacknightslc.com">HackNight SLC</a>, <a href="https://groups.google.com/forum/#!forum/utah-indie-games">Utah Indie Games Night</a>, and the annual Utah Code Camp.
 					</p>
 				</div>
 				<div class="aboutSection">
 					<p class="title">Let&apos;s talk.</p>
 					<p class="pageDescription">
-						If you are a recruiter looking to fill a position and just stumbled upon this page, the best way to get in touch with me is through the use of smoke signals or carrier pigeons.  Otherwise, feel free to email me: <a href="mailto:eric@giantshaft.com">eric@giantshaft.com</a>.
+						While I am happily employed, I am always interested in freelance work, side projects, or challenging and rewarding opportunities.  Feel free to email me: <a href="mailto:eric@giantshaft.com">eric@giantshaft.com</a>.
 					</p>
-				</div>
-				<div class="aboutSection">
-					<p class="title">You should check these things out.</p>
-					<ul class="pageDescription">
-						<li><a href="http://www.hacknightslc.com">HackNight SLC</a></li>
-						<li><a href="https://groups.google.com/forum/#!forum/utah-indie-games">Utah Indie Games</a></li>
-						<li><a href="http://hanselman.com/blog">Scott Hanselman&apos;s blog</a></li>
-						<li><a href="https://weblogs.asp.net/scottgu">Scott Gu&apos;s blog</a></li>
-						<li><a href="http://jeremydmiller.com/">Jeremy D Miller&apos;s blog</a></li>
-					</ul>
 				</div>
 			</script>
 
 			<script type="text/ng-template" id="projects.html">
 				<div class="pageDescription">
 					<p>
-						Below is an incomplete collection of desktop programs, websites, and video games that I could still find on my <a href="http://github.com/EricFreeman">GitHub</a> account or around the Internet.  Some are published while others are incomplete or still work-in-progress.
+						Below is a small sample of desktop programs, websites, and video games that I have developed over the years.
 					</p>
 					<p>
-						&#9658; The project can be played online, downloaded, installed to a phone, or there is a video available.
+						Projects that display the icon &#9658; can be accessed online, some in playable form, others as demo videos, by clicking on the title.
 					</p>
 					<p>
-					<img src="images/github.png" /> The project&apos;s source code is available.
+						For projects that display the icon <img src="images/github.png" />, clicking the icon will take you to the source code.
 					</p>
 				</div>
 				<div class="project" ng-repeat="project in projects">
 					<p class="title">
-						<span>{{ project.name }}<span>
-						<a ng-if='project.link' href="{{ project.link }}" target="_blank">&#9658;</a>
+						<span ng-if="! project.link">{{ project.name }}</span>
+						<span ng-if="project.link"><a href="{{ project.link }}" target="_blank">{{ project.name }} &#9658;</a></span>
 						<a class="github" ng-if='project.github' href="{{ project.github }}" target="_blank">
 							<img src="images/github.png" />
 						</a>
