@@ -13,6 +13,12 @@ a:hover {
 	color: #333;
 }
 
+.project a, a img {
+    text-decoration: none;
+    outline: none;
+    border: 0px none transparent;
+}
+
 #content {
 	width: 600px;
 	padding: 32px;

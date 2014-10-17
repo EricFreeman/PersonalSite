@@ -90,8 +90,16 @@ function Projects($scope, $sce) {
 		{
 			name : 'Emo Game 2',
 			date : 'August 2006',
-			description : 'A 3D adventure game I made when I was 15.  Explore your house as an "emo" kid and perform different tasks commonly associated with someone from their clique like listening to depressing music or writing bad poetry.  The game was programmed using <strong>Blitz3D</strong>',
-			github : 'https://github.com/EricFreeman/Emo-Game-2'
+			description : 'A 3D adventure game I made when I was 15.  Explore your house as an "emo" kid and perform different tasks commonly associated with someone from their clique like listening to depressing music or writing bad poetry.  The game was programmed using <strong>Blitz3D</strong>.',
+			github : 'https://github.com/EricFreeman/Emo-Game-2',
+			screenshots : [ 'emo game 2 1.png', 'emo game 2 2.png', 'emo game 2 3.png', 'emo game 2 4.png' ]
+		},
+		{
+			name : 'Fast Game',
+			date : 'April 2006',
+			description : 'A 3D driving game I made in a day when I was 14 for an online competition to make a "fast game".  Created using <strong>Blitz3D</strong>.',
+			link : 'http://giantshaft.com/Fast%20Game.rar',
+			screenshots : [ 'fast game 1.png', 'fast game 2.png', 'fast game 3.png', 'fast game 4.png' ]
 		},
 		{
 			name : 'Mr. Stick Figure',
