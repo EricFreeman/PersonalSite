@@ -102,6 +102,13 @@ function Projects($scope, $sce) {
 			screenshots : [ 'fast game 1.png', 'fast game 2.png', 'fast game 3.png', 'fast game 4.png' ]
 		},
 		{
+			name : 'Frogger Clone',
+			date : 'October 2004',
+			description : 'Frogger clone I programmed in <strong>BlitzPlus</strong> when I was 13.',
+			link : 'http://my.dmci.net/~jsfreeman/Frogger/Frogger.rar',
+			screenshots : [ 'frogger 1.png', 'frogger 2.png', 'frogger 3.png', 'frogger 4.png', 'frogger 5.png', 'frogger 6.png', 'frogger 7.png' ]
+		},
+		{
 			name : 'Mr. Stick Figure',
 			link : 'http://my.dmci.net/~jsfreeman/clownhunter/Stick.zip',
 			date : 'Circa August 2004 (Exact Date Unknown)',
