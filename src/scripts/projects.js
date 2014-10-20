@@ -95,11 +95,25 @@ function Projects($scope, $sce) {
 			screenshots : [ 'emo game 2 1.png', 'emo game 2 2.png', 'emo game 2 3.png', 'emo game 2 4.png' ]
 		},
 		{
+			name : 'Frogger3D',
+			date : 'July 2006 - August 2006',
+			description : 'Frogger clone I programmed in <strong>Blitz3D</strong>.',
+			link : 'http://clownhunter.webs.com/Frogger3D.zip',
+			screenshots : [ 'frogger3d 1.png' ]
+		},
+		{
 			name : 'Fast Game',
 			date : 'April 2006',
 			description : 'A 3D driving game I made in a day when I was 14 for an online competition to make a "fast game".  Created using <strong>Blitz3D</strong>.',
 			link : 'http://giantshaft.com/Fast%20Game.rar',
 			screenshots : [ 'fast game 1.png', 'fast game 2.png', 'fast game 3.png', 'fast game 4.png' ]
+		},
+		{
+			name : 'The Adventures of Mr. Stick and Friends',
+			date : 'January 2006',
+			description : 'A top down game where you play a stick floating in the water trying to make it to the finish without hitting obstacles.  Created using <strong>BlitzMax</strong>.',
+			screenshots : [ 'stick 1.png', 'stick 2.png', 'stick 3.png', 'stick 4.png', 'stick 5.png', 'stick 6.png', 'stick 7.png' ],
+			link : 'http://clownhunter.webs.com/The%20Adventures%20of%20Mr.%20Stick%20and%20Friends.zip'
 		},
 		{
 			name : 'Frogger Clone',
