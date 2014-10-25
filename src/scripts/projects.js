@@ -4,6 +4,14 @@ function Projects($scope, $sce) {
 	};
 
 	$scope.projects = [
+		{	
+			name : 'The Adventures of Mr. Poopy',
+			date : 'October 2014',
+			description : 'Ported an old <strong>BlitzPlus</strong> game I wrote in 2005 to <strong>Unity3D</strong> and published it for Windows Phone.',
+			github : 'https://github.com/EricFreeman/MrPoopy',
+			link : 'http://www.windowsphone.com/en-us/store/app/mr-poopy/263e861c-f9eb-45f2-b768-7a869508e481',
+			screenshots : [ 'poopy 1.png', 'poopy 2.png', 'poopy 3.png', 'poopy 4.png' ]
+		},
 		{
 			name : 'Doodle Jump Clone',
 			date : 'September 2014 - October 2014',
