@@ -1,5 +1,5 @@
 body {
-	font-family: 'Segoe UI', 'Helvetica', 'Arial';
+	font-family: 'Open Sans', 'Segoe UI', 'Helvetica', 'Arial';
 	background-image: url('../images/background.png');
 }
 
@@ -20,7 +20,7 @@ a:hover {
 }
 
 #content {
-	width: 600px;
+	width: 900px;
 	padding: 32px;
 	margin-left: auto;
 	margin-right: auto;
@@ -29,7 +29,7 @@ a:hover {
 }
 
 header {
-	font-size: 32px;
+	font-size: 48px;
 	margin-bottom: 64px;
 	padding-bottom: 16px;
 }
@@ -45,11 +45,12 @@ header ol {
 header ol li {
 	display: inline;
 	list-style-type: none;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .pageDescription {
-	font-size: 12px;
+	font-size: 14px;
+	line-height: 18px;
 }
 
 .pageDescription p {
@@ -68,7 +69,7 @@ header ol li {
 
 .title {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 26px;
 }
 
 .title a {
@@ -85,11 +86,11 @@ header ol li {
 }
 
 .project .date {
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .description {
-	margin-top: 16px;
+	margin-top: 24px;
 }
 
 .description strong {
@@ -101,10 +102,10 @@ header ol li {
 }
 
 .project .screenshots img {
-	max-width: 32%;
+	max-width: 24%;
 	max-height: 128px;
 }
 
 .aboutSection:not(:last-child) {
-	margin-bottom: 16px;
+	margin-bottom: 32px;
 }
