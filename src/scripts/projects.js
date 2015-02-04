@@ -145,4 +145,14 @@ function Projects($scope, $sce) {
 			screenshots :  [ 'clownhunter 1.jpg', 'clownhunter 2.jpg' ]
 		}
 	];
+
+	$scope.selectedImage = '';
+
+	$scope.selectImage = function(image) {
+		$scope.selectedImage = image;
+	}
+
+	$scope.deselectImage = function() {
+		$scope.selectedImage = null;
+	}
 }

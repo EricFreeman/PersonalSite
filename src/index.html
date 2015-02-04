@@ -66,10 +66,14 @@
 					<p class="date">{{ project.date }}</p>
 					<p class="description" ng-bind-html="trust(project.description)" />
 					<div class="screenshots">
-						<a ng-repeat="image in project.screenshots" href="images/{{ image }}" target="_blank">
+						<a ng-repeat="image in project.screenshots" href ng-click="selectImage(image)">
 							<img ng-src="images/{{ image }}" />
 						</a>
 					</div>
+				</div>
+
+				<div id="imageOverlay" ng-show="!!selectedImage" ng-click="deselectImage()">
+					<img ng-src="images/{{ selectedImage }}" />
 				</div>
 			</script>
 		</div>
