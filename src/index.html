@@ -4,6 +4,7 @@
 	<script src="scripts/angular-route.min.js"></script>
 	<script src="scripts/personalSite.js"></script>
 	<script src="scripts/projects.js"></script>
+	<script src="scripts/angular-youtube-embed.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -69,6 +70,9 @@
 						<a ng-repeat="image in project.screenshots" href ng-click="selectImage(image)">
 							<img ng-src="images/{{ image }}" />
 						</a>
+					</div>
+					<div class="videos">
+						<youtube-video video-id="project.youtube"></youtube-video>
 					</div>
 				</div>
 

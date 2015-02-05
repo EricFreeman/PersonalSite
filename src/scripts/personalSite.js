@@ -1,4 +1,4 @@
-var personalSite = angular.module('personalSite', ['ngRoute']);
+var personalSite = angular.module('personalSite', ['ngRoute', 'youtube-embed']);
 
 personalSite.config(['$routeProvider',
 	function($routeProvider) {

@@ -5,6 +5,13 @@ function Projects($scope, $sce) {
 
 	$scope.projects = [
 		{	
+			name : 'Unity Physics Sidescroller',
+			date : 'October 2014 - December 2014',
+			description : 'A physics based platformer made with <strong>Unity3D</strong> and <strong>C#</strong>.',
+			github : 'https://github.com/EricFreeman/LightGame',
+			youtube : 'HzvBcuaTKjU'
+		},
+		{	
 			name : 'The Adventures of Mr. Poopy',
 			date : 'October 2014',
 			description : 'Ported an old <strong>BlitzPlus</strong> game I wrote in 2005 to <strong>Unity3D</strong> and published it for Windows Phone.',
@@ -81,7 +88,8 @@ function Projects($scope, $sce) {
 			name : 'UDK Scaleform Arcade',
 			link : 'https://www.youtube.com/watch?v=0jpqIwHlR3o',
 			date : 'January 2012 - February 2012',
-			description : "The project's motivation was to see how practical it would be to create <strong>Flash</strong> games and then utilize <strong>Scaleform</strong> to place them into the world as fully interactive content no longer dependent on Flash infrastructure to run.  Built using <strong>Unreal Development Kit</strong>."
+			description : "The project's motivation was to see how practical it would be to create <strong>Flash</strong> games and then utilize <strong>Scaleform</strong> to place them into the world as fully interactive content no longer dependent on Flash infrastructure to run.  Built using <strong>Unreal Development Kit</strong>.",
+			youtube : '0jpqIwHlR3o'
 		},
 		{
 			name : 'Ball Descent',
@@ -93,7 +101,8 @@ function Projects($scope, $sce) {
 			name : 'Infinecraft',
 			link : 'https://www.youtube.com/watch?v=5DKm846xjVs',
 			date : 'January 2010 - April 2010',
-			description : 'A 3D platforming game written in the <strong>XNA</strong> framework for <strong>C#</strong>. It features procedurally generated environments rendered in full 3D.'
+			description : 'A 3D platforming game written in the <strong>XNA</strong> framework for <strong>C#</strong>. It features procedurally generated environments rendered in full 3D.',
+			youtube : '5DKm846xjVs'
 		},
 		{
 			name : 'Emo Game 2',
