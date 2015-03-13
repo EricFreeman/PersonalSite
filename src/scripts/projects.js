@@ -4,6 +4,14 @@ function Projects($scope, $sce) {
 	};
 
 	$scope.projects = [
+		{
+
+			name : 'Wiggle',
+			date : 'March 2015',
+			description : 'Make your computer think the mouse is moving even when it isn&apos;t. Wiggle will stop your computer from going to sleep unless you actually want it to.',
+			github : 'https://github.com/EricFreeman/Wiggle',
+			screenshots : [ 'wiggle.png' ]
+		},
 		{	
 			name : 'Unity Physics Sidescroller',
 			date : 'October 2014 - December 2014',
