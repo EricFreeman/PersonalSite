@@ -5,6 +5,14 @@ function Projects($scope, $sce) {
 
 	$scope.projects = [
 		{
+			name : 'Never Run Out of Contacts',
+			date : 'March 2015',
+			description : 'A simple endless runner made in <strong>Unity3D</strong> for a 24 hour hackathon at work.  I used <strong>C#</strong> for scripting.',
+			github : 'https://github.com/EricFreeman/1800ContactsEndlessRunner',
+			screenshots : [ 'never run out 1.png', 'never run out 2.png', 'never run out 3.png', ],
+			link : 'http://giantshaft.com/NeverRunOut/'
+		},
+		{
 
 			name : 'Wiggle',
 			date : 'March 2015',
