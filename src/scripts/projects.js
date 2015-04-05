@@ -13,7 +13,6 @@ function Projects($scope, $sce) {
 			link : 'http://giantshaft.com/NeverRunOut/'
 		},
 		{
-
 			name : 'Wiggle',
 			date : 'March 2015',
 			description : 'Make your computer think the mouse is moving even when it isn&apos;t. Wiggle will stop your computer from going to sleep unless you actually want it to.',
