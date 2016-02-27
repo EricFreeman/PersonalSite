@@ -1,4 +1,4 @@
 Personal Site
 =============
 
-Repo for my personal site http://giantshaft.com/me
+Repo for my personal site http://me.giantshaft.com/
