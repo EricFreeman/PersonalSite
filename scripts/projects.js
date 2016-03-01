@@ -9,7 +9,7 @@ function Projects($scope, $sce) {
 			date : 'August 2015',
 			description : 'A Super Monkey Ball clone made in <strong>Unity3D</strong> for a 24 hour hackathon at work.  I used <strong>C#</strong> for scripting.',
 			github : 'https://github.com/EricFreeman/1800ContactsPacMan',
-			screenshots : [ 'adventures of dex 1', 'adventures of dex 2', 'adventures of dex 3', 'adventures of dex 4', ]
+			screenshots : [ 'adventures of dex 1.png', 'adventures of dex 2.png', 'adventures of dex 3.png', 'adventures of dex 4.png', ]
 		},
 		{
 			name : 'fuck',
