@@ -7,7 +7,7 @@ function Projects($scope, $sce) {
 		{
 			name : 'Contacts Quest',
 			date : 'February 2016',
-			description : 'A FPS made in <strong>Unity3D</strong> for a 24 hour hackathon at work.  I used <strong>C#</strong> for scripting.',
+			description : 'An FPS made in <strong>Unity3D</strong> for a 24 hour hackathon at work.  I used <strong>C#</strong> for scripting.',
 			github : 'https://github.com/kevlarut/ContactsQuest',
 			screenshots : [ 'contacts quest 1.png', 'contacts quest 2.png', 'contacts quest 3.png', 'contacts quest 4.png' ],
 			youtube : 'cBMMWZJqGdQ'
