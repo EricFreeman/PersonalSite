@@ -5,11 +5,26 @@ function Projects($scope, $sce) {
 
 	$scope.projects = [
 		{
+			name : 'Contacts Quest',
+			date : 'February 2016',
+			description : 'A FPS made in <strong>Unity3D</strong> for a 24 hour hackathon at work.  I used <strong>C#</strong> for scripting.',
+			github : 'https://github.com/kevlarut/ContactsQuest',
+			screenshots : [ 'contacts quest 1.png', 'contacts quest 2.png', 'contacts quest 3.png', 'contacts quest 4.png' ],
+			youtube : 'cBMMWZJqGdQ'
+		},
+		{
+			name : 'Hotline Unity',
+			date : 'October 2015 - December 2015',
+			description : 'Another top down shooter made in <strong>Unity3D</strong>.  I used <strong>C#</strong> for scripting.',
+			github : 'https://github.com/EricFreeman/HotlineUnity',
+			screenshots : [ 'hotline unity 1.png', 'hotline unity 2.png', 'hotline unity 3.png' ]
+		},
+		{
 			name : '1-800 Contacts Presents: The Adventures of Dex',
 			date : 'August 2015',
 			description : 'A Super Monkey Ball clone made in <strong>Unity3D</strong> for a 24 hour hackathon at work.  I used <strong>C#</strong> for scripting.',
 			github : 'https://github.com/EricFreeman/1800ContactsPacMan',
-			screenshots : [ 'adventures of dex 1.png', 'adventures of dex 2.png', 'adventures of dex 3.png', 'adventures of dex 4.png', ]
+			screenshots : [ 'adventures of dex 1.png', 'adventures of dex 2.png', 'adventures of dex 3.png', 'adventures of dex 4.png' ]
 		},
 		{
 			name : 'fuck',
