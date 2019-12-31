@@ -5,12 +5,15 @@ personalSite.config(['$routeProvider',
 		$routeProvider.
 			when('/home', {
 				templateUrl: 'home.html'
-			}).
-			when('/projects', {
+			})
+			.when('/projects', {
 				templateUrl: 'projects.html',
 				controller: 'Projects'
-			}).
-			otherwise({
+			})
+			.when('/privacy-policy', {
+				templateUrl: 'privacy-policy.html'
+			})
+			.otherwise({
 				redirectTo: '/home'
 			});
 	}
